@@ -52,5 +52,5 @@ e.g., a coffee machine
 ## 9- Checking if linked list is palindrome in O(n)
 https://github.com/Hasandev08/Interview-Questions/blob/master/Programs/isPalindrome%20Linked%20List.cpp
 
-## 10- You have three buckets and one has red balls, 2nd has blue balls and 3rd has mixed balls, but their labels are wrong how many iterations are needed to correct them.
+## 10- 
 
