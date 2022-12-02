@@ -32,6 +32,5 @@ Acces modifiers are the keywords i.e., private, protected, public
 ```
 
 ## 6- Find the distinct characters from string 
-```
 https://github.com/Hasandev08/Interview-Questions/blob/master/Programs/distinctChar.js
-```
+
