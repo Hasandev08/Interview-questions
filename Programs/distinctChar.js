@@ -4,7 +4,9 @@ function printDistinct(str) {
   let count = new Array(NO_OF_CHARS)
 
   for (let i = 0; i < NO_OF_CHARS; i++) count[i] = 0 //initialization of count array to 0
-
+  
+  //charCodeAt(0) gives the unicode of the character
+  
   let i = 0
   for (i = 0; i < str.length; i++) {
     if (str[i] !== ' ') {
