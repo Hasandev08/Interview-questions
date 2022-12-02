@@ -1,3 +1,5 @@
+//Time Complexity is O(n)
+
 let NO_OF_CHARS = 256
 
 function printDistinct(str) {
