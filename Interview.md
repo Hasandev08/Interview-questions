@@ -45,6 +45,6 @@ a capsule which hides the medicine within it
 ```
 ### Abstraction
 ```
-It means thaat displaying only the essential information and hiding the other details
+It means that displaying only the essential information and hiding the other details
 e.g., a coffee machine
 ```
