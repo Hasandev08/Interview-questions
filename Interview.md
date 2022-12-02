@@ -48,3 +48,7 @@ a capsule which hides the medicine within it
 It means that displaying only the essential information and hiding the other details
 e.g., a coffee machine
 ```
+
+## 9- Checking if linked list is palindrome in O(n)
+https://github.com/Hasandev08/Interview-Questions/blob/master/Programs/isPalindrome%20Linked%20List.cpp
+
