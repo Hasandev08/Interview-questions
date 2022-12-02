@@ -52,5 +52,7 @@ e.g., a coffee machine
 ## 9- Checking if linked list is palindrome in O(n)
 https://github.com/Hasandev08/Interview-Questions/blob/master/Programs/isPalindrome%20Linked%20List.cpp
 
-## 10- 
+## 10- Making a queue using two stacks
+https://github.com/Hasandev08/Interview-Questions/blob/master/Programs/Queue%20from%20stack.cpp
+
 
