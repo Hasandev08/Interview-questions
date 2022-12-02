@@ -30,3 +30,8 @@ There is no difference between the access modifiers and access specifiers. They 
 modifiers is just a new term used instead of access specifiers.
 Acces modifiers are the keywords i.e., private, protected, public
 ```
+
+## 6- Find the distinct characters from string 
+```
+https://github.com/Hasandev08/Interview-Questions/blob/master/Programs/distinctChar.js
+```
