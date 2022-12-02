@@ -55,4 +55,19 @@ https://github.com/Hasandev08/Interview-Questions/blob/master/Programs/isPalindr
 ## 10- Making a queue using two stacks
 https://github.com/Hasandev08/Interview-Questions/blob/master/Programs/Queue%20from%20stack.cpp
 
+## 11- Pair wise swaping a linked list
+```
+void pairWiseSwap(Node* head) 
+{
+	Node* temp = head;
+	
+	while(temp != NULL && temp->next != NULL)
+	{
+		swap(temp, temp->next)
+		
+		temp = temp->next->next
+	}
+}
+```
+
 
