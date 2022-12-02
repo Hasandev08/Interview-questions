@@ -34,3 +34,17 @@ Acces modifiers are the keywords i.e., private, protected, public
 ## 6- Find the distinct characters from string 
 https://github.com/Hasandev08/Interview-Questions/blob/master/Programs/distinctChar.js
 
+## 7- Private, Protected and Public Inheritance
+
+## 8- Encapsulation and Abstraction
+### Encapsulation
+```
+Encapsulation is hiding of the sensitive data from the user. To achieve this the class attributes
+are declared as private. To make it readable for the users getters and setter are provided e.g.,
+a capsule which hides the medicine within it
+```
+### Abstraction
+```
+It means thaat displaying only the essential information and hiding the other details
+e.g., a coffee machine
+```
