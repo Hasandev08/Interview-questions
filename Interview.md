@@ -90,4 +90,47 @@ void reverse ()
 }
 ```
 
+## 13- Deleteing a node from Linked List
+### Deleting head node
+```
+void deleteAtHead()
+{
+	Node* temp = head;
+	
+	head = head->next;
+	delete(temp);
+	temp = NULL;
+}
+
+void deleteAtMid()
+{
+	Node* temp = head;
+	Node* prev = NULL;
+	Node* next = NULL;
+	
+	for(int i = 0; i < position; i++)
+	{
+		prev = current;
+		current = current->next;
+		next = current->next;
+	}
+	prev->next = current->next;
+	free(current);
+	current = NULL;
+}
+void deleteAtEnd()
+{
+	Node* prev = head;
+	Node* temp = prev->next;
+	
+	while(temp != NULL)
+	{
+		prev = prev->next;
+		temp = prev->next;
+	}
+	free(temp);
+	temp = NULL;
+}
+```
+
 
