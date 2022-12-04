@@ -90,7 +90,7 @@ void reverse ()
 }
 ```
 
-## 13- Deleteing a node from Linked List
+## 13- Deleting a node from Linked List
 ### Deleting head node
 ```
 void deleteAtHead()
@@ -149,4 +149,8 @@ function moveAtEnd(arr, n) {
 	while(count < n)	arr[count++] = 0
 }
 ```
-
+## 15- Inheritance Vs Encapsulation
+```
+In inheritance all the attributes and methods are inherited from the parent to child class whereas 
+in encapsulation the private members of the class cannot be accessed
+```
