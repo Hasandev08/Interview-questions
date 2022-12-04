@@ -154,3 +154,8 @@ function moveAtEnd(arr, n) {
 In inheritance all the attributes and methods are inherited from the parent to child class whereas 
 in encapsulation the private members of the class cannot be accessed
 ```
+
+## 16- What are garbage values
+```
+These are the waste or unused values which are available in the memory at the time of declaration of the values.
+```
