@@ -159,3 +159,5 @@ in encapsulation the private members of the class cannot be accessed
 ```
 These are the waste or unused values which are available in the memory at the time of declaration of the values.
 ```
+## 17- Find middle of a linked list in O(n)
+https://github.com/Hasandev08/Interview-Questions/blob/master/Programs/Middle%20Node.cpp
