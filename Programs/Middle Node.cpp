@@ -1,4 +1,4 @@
-int getLength(Node* head)
+int getLength(Node* head)			//finding the length of the linked list
 {
 	int length = 0;
 	
@@ -16,11 +16,11 @@ void midNode(Node* head)
 	int len = getLength(head);
 	Node* temp = head;
 	
-	int mid = len / 2;
+	int mid = len / 2;			//finding the middle of the length of the linked list
 	
 	while (mid != 0)
 	{
-		temp = temp->next;
+		temp = temp->next;		//traversing to the middle of the linked list
 		mid--;	
 	}
 	
