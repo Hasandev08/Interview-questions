@@ -176,3 +176,6 @@ void lastNode(Node* head)
 	cout << temp->data;		//printing the last node of the linked list
 }
 ```
+
+### 19- Venn Diagrams for Joins
+https://learnsql.com/blog/sql-joins/
