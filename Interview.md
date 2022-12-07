@@ -177,5 +177,20 @@ void lastNode(Node* head)
 }
 ```
 
-### 19- Venn Diagrams for Joins
+## 19- Venn Diagrams for Joins
 https://learnsql.com/blog/sql-joins/
+
+## 20- Reversing an array
+```
+int reverseArray(int arr[], int start, int end)
+{
+	while(start < end)
+	{
+		int temp = arr[start]
+		arr[start] = arr[end]
+		arr[end] = temp
+		start++
+		end--
+	}
+}
+```
