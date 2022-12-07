@@ -161,3 +161,18 @@ These are the waste or unused values which are available in the memory at the ti
 ```
 ## 17- Find middle of a linked list in O(n)
 https://github.com/Hasandev08/Interview-Questions/blob/master/Programs/Middle%20Node.cpp
+
+## 18- Printing the last node of a linked list
+```
+void lastNode(Node* head)
+{	
+	Node* temp = head;
+	
+	while(temp != NULL)
+	{
+		temp = temp->next;		//traversing to the last node
+	}
+	
+	cout << temp->data;		//printing the last node of the linked list
+}
+```
