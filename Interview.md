@@ -194,3 +194,25 @@ int reverseArray(int arr[], int start, int end)
 ```
 ## 21- Deleting Middle Node of a linked list
 https://github.com/Hasandev08/Interview-Questions/blob/master/Programs/Deleting%20Middle%20Node.cpp
+
+## 22- Diamond Problems
+https://www.makeuseof.com/what-is-diamond-problem-in-cpp/
+
+## 23- Class C inherits fron Class A and B. suppose A and B have same methods having different definitions, which function should be called by child.
+- There will be an error of ambuiguity. In other words it will be a diamond problem.
+
+## 24- What is the role of Primary key and Foreign key regarding tables?
+- Primary and foreign keys help create structure in relational databases. A primary key ensures unique row identification. This results in faster sorting, searching, and querying operations. A foreign key creates a link between two tables.
+
+## 25- Library and FrameWork
+- Libraries provide developers with predefined functions and classes to make their work easier and boost the development process. Framework, on the other hand, is like the foundation upon which developers build applications for specific platforms
+
+## 26- Singleton problem in real life
+- Singleton is like a single resource which is being shared among multiple users; for example sharing a single washing machine among all the residents in a hotel or sharing a single appliance like refrigerator among all the family members.
+
+## 27- Shallow Copy and Deep Copy
+- In Shallow copy, a copy of the original object is stored and only the reference address is finally copied. In Deep copy, the copy of the original object and the repetitive copies both are stored.
+- https://byjus.com/gate/difference-between-shallow-and-deep-copy-of-a-class/#:~:text=In%20Shallow%20copy%2C%20a%20copy,repetitive%20copies%20both%20are%20stored.
+
+## 28- You have Two Jugs(Containers/Flasks), one of 3-litres and the other one of 5-litres. How would you exactly measure 4-litres considering you have excess supply of water
+- Empty the 3-liter bowl, and then transfer the 2 liters from the 5-liter bowl into it. Now fill the 5-liter bowl again, then pour water carefully from the 5-liter bowl into the 3-liter bowl until it is full - exactly one more liter. The 5-liter bowl now has exactly 4 liters.
