@@ -106,7 +106,7 @@ void deleteAtHead()
 ```
 void deleteAtMid()
 {
-	Node* temp = head;
+	Node* current = head;
 	Node* prev = NULL;
 	Node* next = NULL;
 	
@@ -125,13 +125,11 @@ void deleteAtMid()
 ```
 void deleteAtEnd()
 {
-	Node* prev = head;
-	Node* temp = prev->next;
+	Node* temp = head;
 	
 	while(temp != NULL)
 	{
-		prev = prev->next;
-		temp = prev->next;
+		temp = temp->next;
 	}
 	free(temp);
 	temp = NULL;
@@ -194,3 +192,5 @@ int reverseArray(int arr[], int start, int end)
 	}
 }
 ```
+## 21- Deleting Middle Node of a linked list
+https://github.com/Hasandev08/Interview-Questions/blob/master/Programs/Deleting%20Middle%20Node.cpp
