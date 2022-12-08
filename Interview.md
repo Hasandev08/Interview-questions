@@ -217,3 +217,8 @@ https://www.makeuseof.com/what-is-diamond-problem-in-cpp/
 ## 28- You have Two Jugs(Containers/Flasks), one of 3-litres and the other one of 5-litres. How would you exactly measure 4-litres considering you have excess supply of water
 - Empty the 3-liter bowl, and then transfer the 2 liters from the 5-liter bowl into it. Now fill the 5-liter bowl again, then pour water carefully from the 5-liter bowl into the 3-liter bowl until it is full - exactly one more liter. The 5-liter bowl now has exactly 4 liters.
 - Empty the 5 liter container and pour the 1 liter which remains in the 3 liter bucket into the 5 liter bucket. Fill up the 3 liter container and pour these 3 liters into the 5 liter container. Finally, the larger bucket now contains exactly 4 liters!
+
+## 29- How many times the minute hand and the hour hand of the clock meet each other in 12 hours consider both hands of the clock are initially at 12
+- We know that the minute and hour hand coincide every 65 minutes and not 60 minutes.
+Also, the hour and minute hand coincide only once between 11 and 1 o’clock i.e. at 12 o’clock.
+So, from both the above statements we can say that the two hands coincide exactly 11 times in a 12 hour span
