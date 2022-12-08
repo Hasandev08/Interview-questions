@@ -222,3 +222,6 @@ https://www.makeuseof.com/what-is-diamond-problem-in-cpp/
 - We know that the minute and hour hand coincide every 65 minutes and not 60 minutes.
 Also, the hour and minute hand coincide only once between 11 and 1 o’clock i.e. at 12 o’clock.
 So, from both the above statements we can say that the two hands coincide exactly 11 times in a 12 hour span
+
+## 30- How to prevent a class from being subclasses?
+- You can prevent a class from being subclassed by using the final keyword in the class's declaration. Similarly, you can prevent a method from being overridden by subclasses by declaring it as a final method. An abstract class can only be subclassed; it cannot be instantiated.
