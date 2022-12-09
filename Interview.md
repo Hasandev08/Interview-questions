@@ -75,18 +75,18 @@ void pairWiseSwap(Node* head)
 void reverse ()
 {
 	Node* current = head;		  //This node is initally on the head of the linked list
-	Node* temp = NULL;                //These are the nodes initially pointing to NULL
-	Node* temp1 = NULL;
+	Node* next = NULL;                //These are the nodes initially pointing to NULL
+	Node* prev = NULL;
 	
 	while(current != NULL) 		//traversing the linked list
 	{
-		temp = current->next;		//the temp will go to the node that is next to the current node
-		current->next = temp1;		//the current node that was pointing on the next node will start pointing the previous node
+		next = current->next;		//the temp will go to the node that is next to the current node
+		current->next = prev;		//the current node that was pointing on the next node will start pointing the previous node
 		
-		temp1 = current;		//the previous node pointer will be moved one step so that it start pointing the node on which current is pointing
-		current = temp;			//the current will also be moved one step further so that the next nodes can be reversed
+		prev = current;		//the previous node pointer will be moved one step so that it start pointing the node on which current is pointing
+		current = next;			//the current will also be moved one step further so that the next nodes can be reversed
 	}
-	head = temp1
+	head = prev
 }
 ```
 
