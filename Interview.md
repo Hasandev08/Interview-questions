@@ -240,3 +240,14 @@ https://github.com/Hasandev08/Interview-Questions/blob/master/Programs/Right%20S
 - Composite Key – is a combination of two or more columns that uniquely identify rows in a table. The combination of columns guarantees uniqueness, though individual uniqueness is not guaranteed.
 - Surrogate Key – An artificial key which aims to uniquely identify each record is called a surrogate key. These kind of key are unique because they are created when you don’t have any natural primary key.
 ```
+## 33- Can we overload constructors
+```
+Constructors can be overloaded in a similar way as function overloading. Overloaded constructors have the same name (name of the class) but the different number of arguments. Depending upon the number and type of arguments passed, the corresponding constructor is called.
+```
+
+## 34- How to swap two variables without using third variable
+https://github.com/Hasandev08/Interview-Questions/blob/master/Programs/Swap%20without%20third.cpp
+
+## 35- ou have 12 black socks and 12 white socks in your drawer. What is the minimum number of socks that you have to take out to make sure that you have a matching pair? Room is dark, u cant see colours
+- 3 socks. Assume the first sock is black. The second one could be black, in which case you have a matching pair. If the second sock is white, the third sock will be either black and match the first sock, or white and match the second sock.
+
