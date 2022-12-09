@@ -229,3 +229,15 @@ So, from both the above statements we can say that the two hands coincide exactl
 ## 31- Starting from the 0th index, calculate right sum.
 ### input array: 1 2 3 4 5 output: 14 12 9 5 5
 https://github.com/Hasandev08/Interview-Questions/blob/master/Programs/Right%20Sum.cpp
+
+## 32- Types of keys 
+```
+- Super Key – A super key is a group of single or multiple keys which identifies rows in a table.
+- Primary Key – is a column or group of columns in a table that uniquely identify every row in that table.
+- Candidate Key – is a set of attributes that uniquely identify tuples in a table. Candidate Key is a super key with no repeated attributes.
+- Alternate Key – is a column or group of columns in a table that uniquely identify every row in that table.
+- Foreign Key – is a column that creates a relationship between two tables. The purpose of Foreign keys is to maintain data integrity and allow navigation between two different instances of an entity.
+- Compound Key – has two or more attributes that allow you to uniquely recognize a specific record. It is possible that each column may not be unique by itself within the database.
+- Composite Key – is a combination of two or more columns that uniquely identify rows in a table. The combination of columns guarantees uniqueness, though individual uniqueness is not guaranteed.
+- Surrogate Key – An artificial key which aims to uniquely identify each record is called a surrogate key. These kind of key are unique because they are created when you don’t have any natural primary key.
+```
