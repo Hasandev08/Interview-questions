@@ -225,3 +225,7 @@ So, from both the above statements we can say that the two hands coincide exactl
 
 ## 30- How to prevent a class from being subclasses?
 - You can prevent a class from being subclassed by using the final keyword in the class's declaration. Similarly, you can prevent a method from being overridden by subclasses by declaring it as a final method. An abstract class can only be subclassed; it cannot be instantiated.
+
+## 31- Starting from the 0th index, calculate right sum.
+### input array: 1 2 3 4 5 output: 14 12 9 5 5
+https://github.com/Hasandev08/Interview-Questions/blob/master/Programs/Right%20Sum.cpp
