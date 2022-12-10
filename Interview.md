@@ -333,3 +333,28 @@ bool isPalindrome(int arr[], int n)
 
 ## 41- Three boxes labeled as red, blue and mixed.These labels are incorrect.one box contains red balls and another box contains blue balls and remaining one box contains both red and blue balls. Pickup one ball from any box(u should pickup ball only once) and name the correct labels.
 - The boxes will be wrongly labeled as RR, BB, RB meaning all red, all blue and mix respectively. So as the labels are wrong we will first open the box having label of RB knowing that it is the label of the mixed box. As the label will is wrong so which ever colored ball we get that box will be of that color. Suppose if that box contains all the red balls then we will open the box labeled with BB which will containe random balls as red balls were already found and it can not have blue balls as the labels are not right, So the last box will definitely contain mix balls.
+
+## 42- Cut the cake into 8 parts with only three cuts
+- First cut the cake in 4 pieces using two of the cuts so that only one cut remains.
+- Now take all the four pieces in a stack and add a cut to divide the cake into 8 parts.
+
+## 43- If you have 7 balls. One weighs more than the others (not significantly). You have a scale, like the scales of justice. How do you find the weighted ball only using the scale twice?
+- Weigh 3 and 3. If the weight is equal then you are holding the heavier ball else if the weight is not equal take the 3 balls with greater weight and weigh any 2 balls if the weight is equal you are holding the heavier ball else the the heavier ball will be on the scale.
+
+## 44- You have 12 black socks and 12 white socks in your drawer. What is the minimum number of socks that you have to take out to make sure that you have a matching pair? Room is dark, u cant see colours (consider urself blind).
+- If the first is white and the second is black, the third would be either white or black, making a match with one of the first two.
+- If the first is white and the second is white, there is a match.
+- If the first is black and the second is black, there is a match.
+
+## 45- A windowless room contains three identical light fixtures, each containing an identical light bulb or light globe. Each light is connected to one of three switches outside of the room. Each bulb is switched off at present. You are outside the room, and the door is closed. Before opening the door you may play around with the light switches as many times as you like. But once you've opened the door, you may no longer touch a switch. After this, you go into the room and examine the lights. How can you tell which switch goes to which light?
+- Turn any two switches on and after a while turn any of them off and enter the room. The bulb on will be of the switch that is on, the bulb which will be a bit hotter will be of the switch that was turned off and the third bulb will be of the switch which was never turned on.
+
+## 46- Two trains are on same track and they are coming toward each other. The speed of the first train is 50 km/h and the speed of the second train is 70 km/h. A bee starts flying between the trains when the distance between two trains is 100 km. The bee first flies from first train to second train. Once it reaches the second train, it immediately flies back to the first train … and so on until trains collide. Calculate the total distance travelled by the bee. Speed of bee is 80 km/h
+
+## 47- There are 100 doors in a row, all doors are initially closed. A person walks through all doors multiple times and toggle (if open then close, if close then open) them in the following way: In the first walk, the person toggles every door In the second walk, the person toggles every second door, i.e., 2nd, 4th, 6th, 8th, … In the third walk, the person toggles every third door, i.e. 3rd, 6th, 9th, … Likewise, In the 100th walk, the person toggles the 100th door.
+- A door is toggled in an ith walk if i divide door number. For example, door number 45 is toggled in the 1st, 3rd, 5th, 9th,15th, and 45th walks.
+The door is switched back to an initial stage for every pair of divisors. For example, 45 is toggled 6 times for 3 pairs (5, 9), (15, 3), and (1, 45). 
+
+It looks like all doors would become closed at the end. But there are door numbers that would open, for example, in 16, the divisors are (1,2,4,8,16) and as the pair(4,4) contributes only one divisor making the number of divisors odd, it would become open at the end. Similarly, all other perfect squares like 4, 9,…, and 100 would become open. Now, for prime numbers like 2,3,5,7… the divisors are (1, that number) and it is a pair, so they will remain closed at the end. And for all other numbers divisors are always in pairs, e.g. 15 = (1,15),(3,5), they will also remain closed.
+
+So the answer is 1, 4, 9, 16, 25, 36, 49, 64, 81 and 100.
