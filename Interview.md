@@ -274,7 +274,7 @@ int removeDuplicate(int arr[], int n)
 	return j
 }
 ```
-# 37- Removing duplicates from a linked list
+## 37- Removing duplicates from a linked list
 ```
 int removeDuplicate(Node* head)
 {
@@ -297,7 +297,7 @@ int removeDuplicate(Node* head)
 }
 ```
 
-# 38- Checking if a string is palindrome
+## 38- Checking if a string is palindrome
 ```
 bool isPalindrome(string S)
 {
