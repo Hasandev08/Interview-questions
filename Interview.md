@@ -327,3 +327,6 @@ bool isPalindrome(int arr[], int n)
 	return true
 }
 ```
+
+## 40- Difference between sql anf nosql
+- SQL is the programming language used to interface with relational databases. (Relational databases model data as records in rows and tables with logical links between them). NoSQL is a class of DBMs that are non-relational and generally do not use SQL e.g., MongoDB
