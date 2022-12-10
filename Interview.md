@@ -307,8 +307,23 @@ bool isPalindrome(string S)
 		{
 			return false
 		}
-		
-		return true
+
 	}
+	return true
+}
+```
+
+## 39- Checking if an array is palindrome
+```
+bool isPalindrome(int arr[], int n)
+{
+	for(int i = 0; i < n; i++)
+	{
+		if(arr[i] != arr[n-i-1])
+		{
+			return false
+		}
+	}
+	return true
 }
 ```
