@@ -274,3 +274,25 @@ int removeDuplicate(int arr[], int n)
 	return j
 }
 ```
+# 37- Removing duplicates from a linked list
+```
+int removeDuplicate(Node* head)
+{
+	Node* current = head;
+	Node* temp = NULL;
+	
+	while(current->next != NULL)
+	{
+		if(current->data == current->next->data)
+		{
+			temp = current->next->next;
+			free(current->next)
+			current->next = temp
+		}
+		else
+		{
+			current = current->next
+		}
+	}
+}
+```
