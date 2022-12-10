@@ -248,6 +248,29 @@ Constructors can be overloaded in a similar way as function overloading. Overloa
 ## 34- How to swap two variables without using third variable
 https://github.com/Hasandev08/Interview-Questions/blob/master/Programs/Swap%20without%20third.cpp
 
-## 35- ou have 12 black socks and 12 white socks in your drawer. What is the minimum number of socks that you have to take out to make sure that you have a matching pair? Room is dark, u cant see colours
+## 35- You have 12 black socks and 12 white socks in your drawer. What is the minimum number of socks that you have to take out to make sure that you have a matching pair? Room is dark, u cant see colours
 - 3 socks. Assume the first sock is black. The second one could be black, in which case you have a matching pair. If the second sock is white, the third sock will be either black and match the first sock, or white and match the second sock.
 
+## 36- Removing duplicates from an array
+```
+int removeDuplicate(int arr[], int n)
+{
+	int temp[n]
+	int j = 0
+	
+	for (int i = 0; i < n-1; i++)
+	{
+		if (arr[i] != arr[i+1])
+			temp[j++] = arr[i] 
+	}
+	
+	temp[j++] = arr[n-1]
+	
+	for(int i = 0; i < j; i++)
+	{
+		arr[i] = temp[i]
+	}
+	
+	return j
+}
+```
