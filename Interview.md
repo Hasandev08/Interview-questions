@@ -358,3 +358,18 @@ The door is switched back to an initial stage for every pair of divisors. For ex
 It looks like all doors would become closed at the end. But there are door numbers that would open, for example, in 16, the divisors are (1,2,4,8,16) and as the pair(4,4) contributes only one divisor making the number of divisors odd, it would become open at the end. Similarly, all other perfect squares like 4, 9,…, and 100 would become open. Now, for prime numbers like 2,3,5,7… the divisors are (1, that number) and it is a pair, so they will remain closed at the end. And for all other numbers divisors are always in pairs, e.g. 15 = (1,15),(3,5), they will also remain closed.
 
 So the answer is 1, 4, 9, 16, 25, 36, 49, 64, 81 and 100.
+
+## 48- There are 4 persons (A, B, C and D) who want to cross a bridge in night.
+- A takes 1 minute to cross the bridge.
+
+- B takes 2 minutes to cross the bridge.
+
+- C takes 5 minutes to cross the bridge.
+
+- D takes 8 minutes to cross the bridge.
+
+- There is only one torch with them and the bridge cannot be crossed without the torch. There cannot be more than two persons on the bridge at any time, - and when two people cross the bridge together, they must move at the slower person’s pace.
+
+- Can they all cross the bridge in 15 minutes?
+
+https://www.geeksforgeeks.org/puzzle-18-torch-and-bridge/?ref=lbp
