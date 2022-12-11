@@ -328,13 +328,13 @@ bool isPalindrome(int arr[], int n)
 }
 ```
 
-## 40- Difference between sql anf nosql
+## 40- Difference between sql anf nosql.
 - SQL is the programming language used to interface with relational databases. (Relational databases model data as records in rows and tables with logical links between them). NoSQL is a class of DBMs that are non-relational and generally do not use SQL e.g., MongoDB
 
 ## 41- Three boxes labeled as red, blue and mixed.These labels are incorrect.one box contains red balls and another box contains blue balls and remaining one box contains both red and blue balls. Pickup one ball from any box(u should pickup ball only once) and name the correct labels.
 - The boxes will be wrongly labeled as RR, BB, RB meaning all red, all blue and mix respectively. So as the labels are wrong we will first open the box having label of RB knowing that it is the label of the mixed box. As the label will is wrong so which ever colored ball we get that box will be of that color. Suppose if that box contains all the red balls then we will open the box labeled with BB which will containe random balls as red balls were already found and it can not have blue balls as the labels are not right, So the last box will definitely contain mix balls.
 
-## 42- Cut the cake into 8 parts with only three cuts
+## 42- Cut the cake into 8 parts with only three cuts.
 - First cut the cake in 4 pieces using two of the cuts so that only one cut remains.
 - Now take all the four pieces in a stack and add a cut to divide the cake into 8 parts.
 
