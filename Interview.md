@@ -438,3 +438,30 @@ bool Search(Node* root, int data)
 	else	return Search(root->right, data)
 }
 ```
+## 60- Finding min and max in a BST
+### Minimum
+```
+int FindMin(Node* root)
+{
+	Node* current = root
+	
+	while (current != NULL)
+	{
+		current = current->left
+	}
+	return current->data
+}
+```
+### FindMax
+```
+int FindMax(Node* root)
+{
+	Node* current = root
+	
+	while (current != NULL)
+	{
+		current = current->right
+	}
+	return current->data
+}
+```
