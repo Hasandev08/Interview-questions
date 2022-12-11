@@ -409,3 +409,10 @@ https://www.geeksforgeeks.org/puzzle-2-find-ages-of-daughters/?ref=lbp
 - 1NF - Each cell should have a single value and we cannot have repeated values e.g., there is an attribute tag. There can be different tags like 1, 2, 3... In such cases, that attribute is moved to another table and linked with the previous table (many-many relation) i.e., the parent table. As many-many relation cannot be implemented in relational databases so we add a link table between these two tables both having one to many relations which eventually becomes many-many relation.
 - 2NF - Every table should describe one entity, and every column in that table should describe that entity e.g., if there is an entity that does not belong to that table like if there is a table orders and there is an entity customer_name, the entity customer_name does not belong to the orders table so this entity should be removed and added in another table.
 - 3NF - A column in a table should not be derived from other columns e.g., there are two columns of first name and last name and there is a third column, full name,  derieved from these 2 columns. Now if we update one of the name and forgets to update the full name the data will become incorrect.
+
+## 57- Normalization vs Denormalization
+- Normalization is the technique of dividing the data into multiple tables to reduce data redundancy and inconsistency and to achieve data integrity. On the other hand, Denormalization is the technique of combining the data into a single table to make data retrieval faster.
+- Normalization increases the number of tables and joins. In contrast, denormalization reduces the number of tables and join.
+
+### Conclusion
+- Normalization is used when the faster insertion, deletion and update anomalies, and data consistency are necessarily required. On the other hand, Denormalization is used when the faster search is more important and to optimize the read performance.
