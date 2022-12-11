@@ -416,3 +416,25 @@ https://www.geeksforgeeks.org/puzzle-2-find-ages-of-daughters/?ref=lbp
 
 ### Conclusion
 - Normalization is used when the faster insertion, deletion and update anomalies, and data consistency are necessarily required. On the other hand, Denormalization is used when the faster search is more important and to optimize the read performance.
+
+## 58- Implementing BST
+### Inserting nodes in a BST
+```
+Node* Insert(Node* root, int data)
+{
+	if (root == NULL)	root = GetNewNode(data)
+	else if (data <= root->data)	Insert(root->left, data)
+	else	Insert(root->right, data)
+	return root
+}
+```
+### Search
+```
+bool Search(Node* root, int data)
+{
+	if (root == NULL)	return false
+	else if (data == root->data)	return true
+	else if (data < root->data)	return Search(root->left, data)
+	else	return Search(root->right, data)
+}
+```
