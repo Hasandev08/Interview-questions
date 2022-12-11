@@ -403,3 +403,9 @@ https://www.geeksforgeeks.org/puzzle-2-find-ages-of-daughters/?ref=lbp
 - Consistency - the database will always remain consistent. There will be no null value.
 - Isolation - transactions are protected or isolated from each other if they tried to modify same data. If multiple transactions try to update the same data the rows will get locked/isolated. Other transactions will have to wait till the first transaction is completed.
 - Durability- Once changes are made by transactions they are permanent i.e., if the systems crashes those changes will not be effected.
+
+## 56- Normalization
+- It is used to prevent duplication because there can be a database in which any attribute e.g., name is repeated. So if we want to update the name we will have to update it on all the places. That's where normalization is used.
+- 1NF - Each cell should have a single value and we cannot have repeated values e.g., there is an attribute tag. There can be different tags like 1, 2, 3... In such cases, that attribute is moved to another table and linked with the previous table (many-many relation) i.e., the parent table. As many-many relation cannot be implemented in relational databases so we add a link table between these two tables both having one to many relations which eventually becomes many-many relation.
+- 2NF - Every table should describe one entity, and every column in that table should describe that entity e.g., if there is an entity that does not belong to that table like if there is a table orders and there is an entity customer_name, the entity customer_name does not belong to the orders table so this entity should be removed and added in another table.
+- 3NF - A column in a table should not be derived from other columns e.g., there are two columns of first name and last name and there is a third column, full name,  derieved from these 2 columns. Now if we update one of the name and forgets to update the full name the data will become incorrect.
