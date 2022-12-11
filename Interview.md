@@ -387,3 +387,19 @@ https://www.geeksforgeeks.org/puzzle-2-find-ages-of-daughters/?ref=lbp
 - Again add water to the 5 litre mug, so that now it contains 5 litres of water whereas the 4 litre mug contains 3 litre water.
 - Empty the 5 litre mug and add the water from 4 litre mug ti 5 litre mug so that the 5 litre mug now has 3 litre of water.
 - Now fill the 4 litre mug so that in total there is 7 litre of water. 
+
+## 52- Stored Procedures
+- A database object that contains block of sql code.
+
+## 53- Triggers
+- A block of sql code that executes automatically on insert, update or delete.
+
+## 54- Events
+- A block of sql code that is scheduled to be executed.
+
+## 55- Transactions and it's ACID properties.
+- A group of sql statements that represent a single unit of work. All the statements are completed successfully or the transaction will be failed e.g., bank transaction.
+- Atomicity - the transactions are like atoms. No matter how many statements are there, either all the statements are executed and transactions is successful or the trasactions is rolled back and none of the statements are executed and the transaction is failed.
+- Consistency - the database will always remain consistent. There will be no null value.
+- Isolation - transactions are protected or isolated from each other if they tried to modify same data. If multiple transactions try to update the same data the rows will get locked/isolated. Other transactions will have to wait till the first transaction is completed.
+- Durability- Once changes are made by transactions they are permanent i.e., if the systems crashes those changes will not be effected.
