@@ -465,3 +465,17 @@ int FindMax(Node* root)
 	return current->data
 }
 ```
+## 60- Height of a binary tree
+```
+int height(Node* root)
+{
+	if (root == NULL)	return 0
+	else {
+		int lHeight = height(root->left)
+		int rHeight = height(root->right)
+		
+		if(lHeight > rHeight)	return (lHeight + 1)
+		else	return (rHeight + 1)
+	}
+}
+```
