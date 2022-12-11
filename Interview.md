@@ -379,3 +379,11 @@ https://www.geeksforgeeks.org/puzzle-4-pay-an-employee-using-a-gold-rod-of-7-uni
 - The oldest girl likes strawberry ice cream.
 
 https://www.geeksforgeeks.org/puzzle-2-find-ages-of-daughters/?ref=lbp
+
+## 51- There are two mugs. One with 4 liters and the other with 5 liters capacity. How will you pour exactly 7 liters of water?
+- Fill the 4 litre mug.
+- Empty the 4 litre mug in 5 litre mug so that 5 litre mug has now 4 litre water.
+- Refill the 4 litre mug.
+- Again add water to the 5 litre mug, so that now it contains 5 litres of water whereas the 4 litre mug contains 3 litre water.
+- Empty the 5 litre mug and add the water from 4 litre mug ti 5 litre mug so that the 5 litre mug now has 3 litre of water.
+- Now fill the 4 litre mug so that in total there is 7 litre of water. 
