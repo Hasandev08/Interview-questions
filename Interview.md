@@ -367,6 +367,7 @@ So the answer is 1, 4, 9, 16, 25, 36, 49, 64, 81 and 100.
 - There is only one torch with them and the bridge cannot be crossed without the torch. There cannot be more than two persons on the bridge at any time, - and when two people cross the bridge together, they must move at the slower person’s pace.
 
 - Can they all cross the bridge in 15 minutes?
+
 https://www.geeksforgeeks.org/puzzle-18-torch-and-bridge/?ref=lbp
 
 ## 49- An employee works for an employer for 7 days. The employer has a gold rod of 7 units. How does the employer pay to the employee, so that the number of employee’s rod units increases by one at the end of each day? The employer can make at most 2 cuts in the rod. (Hint- after the end of the day employee’s can’t spend any part of rod)
@@ -376,4 +377,5 @@ https://www.geeksforgeeks.org/puzzle-4-pay-an-employee-using-a-gold-rod-of-7-uni
 - The product of their ages is 72. Shyam says this is not enough information Alok gives him a second hint.
 - The sum of their ages is equal to my house number. Shyam goes out and looks at the house number and tells “I still do not have enough information to determine the ages”. Alok admits that Shyam can not guess and gives him the third hint
 - The oldest girl likes strawberry ice cream.
+
 https://www.geeksforgeeks.org/puzzle-2-find-ages-of-daughters/?ref=lbp
