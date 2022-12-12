@@ -23,8 +23,16 @@
 - O(n^2)
 
 ## 5- Bubble Sort
-- O(n^2)
-
+- Best case = O(n)
+- Worst case = O(n ^ 2)
+- 
 ## 6- Insertion Sort
 - Best case = O(n)
+- Worst case = O(n ^ 2)
+
+## 7- Merge Sort
+- O(n log n)
+
+## 8- Quick Sort
+- Best case = O(n log n)
 - Worst case = O(n ^ 2)
