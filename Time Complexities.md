@@ -21,3 +21,6 @@
 
 ## 4- Selection Sort
 - O(n^2)
+
+## 5- Bubble Sort
+- O(n^2)
