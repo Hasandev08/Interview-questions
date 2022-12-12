@@ -18,3 +18,6 @@
 - Search = O(n)
 - Insert = O(1)
 - Delete = O(n)
+
+## 4- Selection Sort
+- O(n^2)
