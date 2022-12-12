@@ -24,3 +24,7 @@
 
 ## 5- Bubble Sort
 - O(n^2)
+
+## 6- Insertion Sort
+- Best case = O(n)
+- Worst case = O(n ^ 2)
