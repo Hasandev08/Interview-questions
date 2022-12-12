@@ -18,3 +18,17 @@ void SelectionSort(int arr[], int n)
   }
 }
 ```
+## 2- Bubble Sort
+```
+void BubbleSort(int arr[], int n)
+{
+    for (int k = 1; k < n - 1; k++)
+    {
+        for (int i = 0; i < n - k - 1; i++)
+        {
+            if (arr[i] < arr[i + 1])
+                swap(arr[i], arr[i + 1])
+        }
+    }
+}
+```
