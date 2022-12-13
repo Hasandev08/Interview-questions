@@ -71,3 +71,7 @@ A destructor is a member function that is invoked automatically when the object 
 
 ## 13- Pure Virtual Function
 A pure virtual function doesn't have the function body and it must end with = 0 . For example, class Shape { public: // creating a pure virtual function virtual void calculateArea() = 0; }; Note: The = 0 syntax doesn't mean we are assigning 0 to the function. It's just the way we define pure virtual functions.
+
+## 14- Friend Function
+- A friend function of a class is defined outside that class scope but it has the right to access all private and protected members of the class. A friend can be a function, function template, or member function, or a class or class template, in which case the entire class and all of its members are friends.
+- The function is not in the scope of the class to which it has been declared as a friend. It cannot be called using the object as it is not in the scope of that class. It can be invoked like a normal function without using the object.
