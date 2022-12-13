@@ -506,3 +506,17 @@ int secondLargest(int arr[], int n)
 	return secondL
 }
 ```
+## 62- Check for pairs in an array with sum as x.
+```
+bool checkPair(int arr[], int size, int x)
+{
+	for (int i = 0; i < size - 1; i++)
+	{
+		for (int j = i + 1; j < size; j++)
+		{
+			if (arr[i] + arr[j] == sum)
+				return true
+		}
+	}
+}
+```
