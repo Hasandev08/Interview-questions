@@ -1,11 +1,12 @@
 int getLength(Node* head)			//finding the length of the linked list
 {
 	int length = 0;
+	Node* temp = head;
 	
-	while(head != NULL)
+	while(temp != NULL)
 	{
-		head = head->next;
 		length++;
+		temp = temp->next;
 	}
 	
 	return length;
