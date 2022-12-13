@@ -95,3 +95,9 @@ An exception is an event that occurs during the execution of a program. Exceptio
 
 ## 20- What is the main difference between a class and an object?
 An object is an instance of a class. Objects hold multiple information, but classes don’t have any information. Definition of properties and functions can be done in class and can be used by the object. A class can have sub-classes, while an object doesn’t have sub-objects.
+
+## 21- Why use interface instead of abstract class?
+- An abstract class allows you to create functionality that subclasses can implement or override. An interface only allows you to define functionality, not implement it. And whereas a class can extend only one abstract class, it can take advantage of multiple interfaces. (A class can extend at most one abstract class, but may implement many interfaces.)
+- An abstract class captures some common implementation code in a base class. An interface has no code. It is a pure specification of what should happen.
+- As a reader of this code, an interface tells me I am free to do what I want with an implementation. An abstract class suggests I must re-use some part of an existing implementation. I need to understand what that is, how it applies to me, and how it constrains me in my work.
+
