@@ -82,3 +82,16 @@ The conditional (ternary) operator is the only JavaScript operator that takes th
 ## 16- Finalize Method
 - Finalize method helps to perform cleanup operations on the resources which are not currently used. Finalize method is protected, and it is accessible only through this class or by a derived class.
 - The Finalize method is used to perform cleanup operations on unmanaged resources held by the current object before the object is destroyed. The method is protected and therefore is accessible only through this class or through a derived class.
+
+## 17- Different type of arguements
+- A parameter is a variable used during the declaration of the function or subroutine, and arguments are passed to the function body, and it should match with the parameter defined. There are two types of Arguments. Call by Value – Value passed will get modified only inside the function, and it returns the same value whatever it is passed into the function. Call by Reference – Value passed will get modified in both inside and outside the functions and it returns the same or different value.
+- Function parameters are the names listed in the function's definition. Function arguments are the real values passed to the function. Parameters are initialized to the values of the arguments supplied.
+
+## 18- Super keyword
+The super keyword refers to superclass (parent) objects. It is used to call superclass methods, and to access the superclass constructor. The most common use of the super keyword is to eliminate the confusion between superclasses and subclasses that have methods with the same name.
+
+## 19- Exception Handling
+An exception is an event that occurs during the execution of a program. Exceptions can be of any type – Runtime exception, Error exceptions. Those exceptions are adequately handled through exception handling mechanism like try, catch, and throw keywords.
+
+## 20- What is the main difference between a class and an object?
+An object is an instance of a class. Objects hold multiple information, but classes don’t have any information. Definition of properties and functions can be done in class and can be used by the object. A class can have sub-classes, while an object doesn’t have sub-objects.
