@@ -479,3 +479,30 @@ int height(Node* root)
 	}
 }
 ```
+## 61- Find the Second largest element in an array.
+```
+int secondLargest(int arr[], int n)
+{
+	int largest = 0, secondL = -1;
+	
+	for (int i = largest + 1; i < n; i++)
+	{
+		if (arr[i] > arr[largest])
+			largest = i
+	}
+	
+	for (int i = 0; i < n; i++)
+	{
+		if (arr[i] != arr[largest])
+		{
+			if (secondL == -1)
+				secondL = 0
+			
+			else if (arr[i] > arr[secondL])
+				secondL = i
+		}
+	}
+	
+	return secondL
+}
+```
