@@ -54,4 +54,13 @@ This type of polymorphism is achieved by Function Overriding.
 Class is a blueprint for creating objects (a particular data structure), providing initial values for state (member variables or attributes), and implementations of behavior (member functions or methods). The user-defined objects are created using the class keyword.
 
 ## 8- Object
-An object is an instance of a class. It has its own state, behavior, and identity
+An object is an instance of a class. It has its own state, behavior, and identity.
+
+## 9- Manipulators
+Manipulators are helping functions that can modify the input/output stream. It does not mean that we change the value of a variable, it only modifies the I/O stream using insertion (<<) and extraction (>>) operators.Examples of manipulator are endl manipulator, setw manipulator, setfill manipulator and setprecision manipulator etc
+
+## 10- Constructor
+A constructor is a special type of member function that is called automatically when an object is created. In C++, a constructor has the same name as that of the class and it does not have a return type.
+
+## 11- Destructor
+A destructor is a member function that is invoked automatically when the object goes out of scope or destroyed. A destructor has the same name as the class, preceded by a tilde ( ~ )
