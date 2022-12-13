@@ -26,3 +26,7 @@ The capability of a class to derive properties and characteristics from another 
 - Hierarchical Inheritance: In this type of inheritance, more than one sub class is inherited from a single base class. i.e. more than one derived class is created from a single base class.
 - Hybrid (Virtual) Inheritance: Hybrid Inheritance is implemented by combining more than one type of inheritance. For example: Combining Hierarchical inheritance and Multiple Inheritance.
 - A special case of hybrid inheritance : Multipath inheritance: A derived class with two base classes and these two base classes have one common base class is called multipath inheritance. An ambiguity can arrise in this type of inheritance.
+- To see the examples of the inheritances visit the link below.
+https://www.dotnettricks.com/learn/oops/understanding-inheritance-and-different-types-of-inheritance
+
+
