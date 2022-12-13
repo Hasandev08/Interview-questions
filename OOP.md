@@ -30,4 +30,22 @@ The capability of a class to derive properties and characteristics from another 
 
 https://www.dotnettricks.com/learn/oops/understanding-inheritance-and-different-types-of-inheritance
 
+## 6- Polymorphism
+The word polymorphism means having many forms. In simple words, we can define polymorphism as the ability of a message to be displayed in more than one form.
+feature that allows us to perform a single action in different ways.
+Example:
+A real-life example of polymorphism, a person at the same time can have different characteristics. Like a man at the same time is a father, a husband, an employee. So the same person posses different behavior in different situations.
 
+In C++ polymorphism is mainly divided into two types:
+
+- Compile time Polymorphism
+- Runtime Polymorphism
+#### 1- Compile time polymorphism:
+This type of polymorphism is achieved by function overloading or operator overloading.
+
+- Function Overloading: When there are multiple functions with same name but different parameters then these functions are said to be overloaded. Functions can be overloaded by change in number of arguments or/and change in type of arguments.
+- Operator Overloading: C++ also provide option to overload operators. For example, we can make the operator (‘+’) for string class to concatenate two strings. We know that this is the addition operator whose task is to add two operands. So a single operator ‘+’ when placed between integer operands , adds them and when placed between string operands, concatenates them.
+#### 2- Runtime polymorphism:
+This type of polymorphism is achieved by Function Overriding.
+
+Function overriding on the other hand occurs when a derived class has a definition for one of the member functions of the base class. That base function is said to be overridden.
