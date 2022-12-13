@@ -48,4 +48,10 @@ This type of polymorphism is achieved by function overloading or operator overlo
 #### 2- Runtime polymorphism:
 This type of polymorphism is achieved by Function Overriding.
 
-Function overriding on the other hand occurs when a derived class has a definition for one of the member functions of the base class. That base function is said to be overridden.
+- Function overriding on the other hand occurs when a derived class has a definition for one of the member functions of the base class. That base function is said to be overridden.
+
+## 7- Class
+Class is a blueprint for creating objects (a particular data structure), providing initial values for state (member variables or attributes), and implementations of behavior (member functions or methods). The user-defined objects are created using the class keyword.
+
+## 8- Object
+An object is an instance of a class. It has its own state, behavior, and identity
