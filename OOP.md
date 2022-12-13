@@ -75,3 +75,10 @@ A pure virtual function doesn't have the function body and it must end with = 0 
 ## 14- Friend Function
 - A friend function of a class is defined outside that class scope but it has the right to access all private and protected members of the class. A friend can be a function, function template, or member function, or a class or class template, in which case the entire class and all of its members are friends.
 - The function is not in the scope of the class to which it has been declared as a friend. It cannot be called using the object as it is not in the scope of that class. It can be invoked like a normal function without using the object.
+
+## 15- Ternary Operator
+The conditional (ternary) operator is the only JavaScript operator that takes three operands: a condition followed by a question mark ( ? ), then an expression to execute if the condition is truthy followed by a colon ( : ), and finally the expression to execute if the condition is falsy.
+
+## 16- Finalize Method
+- Finalize method helps to perform cleanup operations on the resources which are not currently used. Finalize method is protected, and it is accessible only through this class or by a derived class.
+- The Finalize method is used to perform cleanup operations on unmanaged resources held by the current object before the object is destroyed. The method is protected and therefore is accessible only through this class or through a derived class.
