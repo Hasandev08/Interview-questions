@@ -64,3 +64,7 @@ A constructor is a special type of member function that is called automatically 
 
 ## 11- Destructor
 A destructor is a member function that is invoked automatically when the object goes out of scope or destroyed. A destructor has the same name as the class, preceded by a tilde ( ~ )
+
+## 12- Virtual Function
+- A virtual function is a member function of a class, and its functionality can be overridden in its derived class. This function can be implemented by using a keyword called virtual, and it can be given during function declaration.
+- A virtual function is a member function in the base class that we expect to redefine in derived classes. Basically, a virtual function is used in the base class in order to ensure that the function is overridden
