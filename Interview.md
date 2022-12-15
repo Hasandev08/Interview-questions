@@ -1,7 +1,7 @@
 ## 1- You have two identical ropes, one rope can burn in 60 min, but burnning pattern is irregular mean maybe first half of the rope can be burn in 50 min and other half can be in 10 min, you have to calculate 45 min using the ropes.
 ```
-Burn rope#1 from both sides and rope#2 just from one side. The first rope will be burnt in 30 minutes as per the conditions.
-At that time burn the rope#2 from the second side and after 15 minutes second rope will be burnt out and 
+Burn rope#1 from both sides and rope 2 just from one side. The first rope will be burnt in 30 minutes as per the conditions.
+At that time burn the rope 2 from the second side and after 15 minutes second rope will be burnt out and 
 we have 45 minutes calculated
 ```
 ## 2- Finding Even Odd number without condition
