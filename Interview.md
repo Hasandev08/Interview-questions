@@ -28,7 +28,7 @@ Whereas the interface just allows you to define the functionalities and there is
 ```
 There is no difference between the access modifiers and access specifiers. They both are same. The access
 modifiers is just a new term used instead of access specifiers.
-Acces modifiers are the keywords i.e., private, protected, public
+Access modifiers are the keywords i.e., private, protected, public
 ```
 
 ## 6- Find the distinct characters from string in O(n)
