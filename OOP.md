@@ -3,7 +3,7 @@
 - Real life example of oop is: A car is having multiple parts.. like steering,wheels,engine...etc..which binds together to form a single object that is car. So, Here multiple parts of cars encapsulates itself together to form a single object that is Car.
 - OOP stands for Object-Oriented Programming. As you can guess from it's name it breaks the program on the basis of the objects in it. It mainly works on Class, Object, Polymorphism, Abstraction, Encapsulation and Inheritance. Its aim is to bind together the data and functions to operate on them.
 
-## 2- Pillars of OOP
+## 2- Four Pillars of OOP
 - Abstraction
 - Encapsulation
 - Inheritance
