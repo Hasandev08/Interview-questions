@@ -4,7 +4,7 @@ Burn rope#1 from both sides and rope 2 just from one side. The first rope will b
 At that time burn the rope 2 from the second side and after 15 minutes second rope will be burnt out and 
 we have 45 minutes calculated
 ```
-## 2- Finding Even Odd number without condition
+## 2- Finding Even Odd number without if condition
 ### Note: It is a psuedo code so there can be syntax errors
 ```
 const arr = ["Even", "Odd"]  //The positions of even and odd can't be changes as even=0 and odd=1
