@@ -41,7 +41,7 @@ https://github.com/Hasandev08/Interview-Questions/blob/master/Programs/distinctC
 ```
 Encapsulation is hiding of the sensitive data from the user. To achieve this the class attributes
 are declared as private. To make it readable for the users getters and setter are provided e.g.,
-a capsule which hides the medicine within it
+a capsule which hides the medicine within it.
 ```
 ### Abstraction
 ```
