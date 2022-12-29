@@ -5,7 +5,7 @@ At that time burn the rope 2 from the second side and after 15 minutes second ro
 we have 45 minutes calculated
 ```
 ## 2- Finding Even Odd number without if condition
-### Note: It is a psuedo code so there can be syntax errors
+### Note: It is a psuedo code so there can be syntax errors.
 ```
 const arr = ["Even", "Odd"]  //The positions of even and odd can't be changes as even=0 and odd=1
 cin >> n;
