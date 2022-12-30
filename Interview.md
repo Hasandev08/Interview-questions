@@ -18,7 +18,7 @@ cout << arr[n % 2]
 3. Inheritance
 4. Polymorphism
 ```
-## 4- Difference between abstract class and interface
+## 4- Difference between abstract class and interface?
 ```
 An abstract class allows you to define the functionalities that can be implemented by the subclasses.
 Whereas the interface just allows you to define the functionalities and there is no implementation.
