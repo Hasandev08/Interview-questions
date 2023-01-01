@@ -24,7 +24,7 @@ An abstract class allows you to define the functionalities that can be implement
 Whereas the interface just allows you to define the functionalities and there is no implementation.
 ```
 
-## 5- Access Modifiers Vs Access Specifiers
+## 5- Access Modifiers Vs Access Specifiers.
 ```
 There is no difference between the access modifiers and access specifiers. They both are same. The access
 modifiers is just a new term used instead of access specifiers.
