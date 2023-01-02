@@ -34,7 +34,7 @@ Access modifiers are the keywords i.e., private, protected, public
 ## 6- Find the distinct characters from string in O(n).
 https://github.com/Hasandev08/Interview-Questions/blob/master/Programs/distinctChar.js
 
-## 7- Private, Protected and Public Inheritance
+## 7- Private, Protected and Public Inheritance.
 
 ## 8- Encapsulation and Abstraction
 ### Encapsulation
