@@ -36,7 +36,7 @@ https://github.com/Hasandev08/Interview-Questions/blob/master/Programs/distinctC
 
 ## 7- Private, Protected and Public Inheritance.
 
-## 8- Encapsulation and Abstraction
+## 8- Encapsulation and Abstraction.
 ### Encapsulation
 ```
 Encapsulation is hiding of the sensitive data from the user. To achieve this the class attributes
