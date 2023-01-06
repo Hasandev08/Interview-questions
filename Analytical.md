@@ -67,8 +67,9 @@ Also, the hour and minute hand coincide only once between 11 and 1 o’clock i.e
 So, from both the above statements we can say that the two hands coincide exactly 11 times in a 12 hour span
 
 ## 15- You have two identical ropes, one rope can burn in 60 mins, but burning pattern is irregular mean maybe first half of the rope can be burn in 50 mins and other half can be in 10 mins, you have to calculate 45 mins using the ropes.
-```
-Burn rope#1 from both sides and rope 2 just from one side. The first rope will be burnt in 30 minutes as per the conditions.
+- Burn rope#1 from both sides and rope 2 just from one side. The first rope will be burnt in 30 minutes as per the conditions.
 At that time burn the rope 2 from the second side and after 15 minutes second rope will be burnt out and 
 we have 45 minutes calculated
-```
+
+## 16- An airplane flies from Islamabad to Karachi in 90 mins but flies back from Karachi to Islamabad in 1 hour 30 minutes. Why?
+- 90 mins = 1 hour 30 minutes
