@@ -73,3 +73,10 @@ we have 45 minutes calculated
 
 ## 16- An airplane flies from Islamabad to Karachi in 90 mins but flies back from Karachi to Islamabad in 1 hour 30 minutes. Why?
 - 90 mins = 1 hour 30 minutes
+
+## 17- The longest distance you can travel when you have 3 motor bike tires that wear out after 30 km ?
+There are 3 tyres i.e., 2 tyres attach to the bike and a stupny.
+- First we will travel 15kms with the 2 already attached tyres.
+- After 15kms we will change the rear tyre with the stupny and travel another 15kms.
+- Then after 30kms we will change the front tyre which has already travelled 30kms and worn out with the tyre that has travelled only 15kms.
+- After that we will be able to travel another 15kms so in total we were able to travel 45kms.
