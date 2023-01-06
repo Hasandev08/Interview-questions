@@ -151,3 +151,9 @@ https://www.makeuseof.com/what-is-diamond-problem-in-cpp/
 ```
 Constructors can be overloaded in a similar way as function overloading. Overloaded constructors have the same name (name of the class) but the different number of arguments. Depending upon the number and type of arguments passed, the corresponding constructor is called.
 ```
+## 32- Shallow Copy and Deep Copy
+- In Shallow copy, a copy of the original object is stored and only the reference address is finally copied. In Deep copy, the copy of the original object and the repetitive copies both are stored.
+- https://byjus.com/gate/difference-between-shallow-and-deep-copy-of-a-class/#:~:text=In%20Shallow%20copy%2C%20a%20copy,repetitive%20copies%20both%20are%20stored.
+
+## 33- How to prevent a class from being subclasses?
+- You can prevent a class from being subclassed by using the final keyword in the class's declaration. Similarly, you can prevent a method from being overridden by subclasses by declaring it as a final method. An abstract class can only be subclassed; it cannot be instantiated.
