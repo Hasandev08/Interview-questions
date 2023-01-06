@@ -367,3 +367,5 @@ function generateRandom(min, max)
 2) We will then multiply the random number with that difference
 3) Then we will add the lower limit i.e., min to rand to get a random number between those 2 values
 ```
+## 27- When do you use recursion over iteration?
+People use recursion only when it is very complex to write iterative code. For example, tree traversal techniques like preorder, postorder can be made both iterative and recursive. But usually we use recursive because of its simplicity.
