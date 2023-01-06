@@ -348,3 +348,22 @@ bool checkTriplet(int arr[], int size, int x)
 	}
 }
 ```
+## 26- Given a function that generates a random number between 20-50, write a function that generates a random number between 10-70.
+```
+function generateRandom(min, max)
+{
+	let difference = max - min
+	
+	let rand = Math.random()
+	
+	rand = Math.floor(rand*difference)
+	
+	rand = rand + min
+	
+	return rand
+}
+
+1) First we will take difference between the limits in which we want the random number
+2) We will then multiply the random number with that difference
+3) Then we will add the lower limit i.e., min to rand to get a random number between those 2 values
+```
