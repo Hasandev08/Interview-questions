@@ -46,3 +46,6 @@ https://learnsql.com/blog/sql-joins/
 
 ### Conclusion
 - Normalization is used when the faster insertion, deletion and update anomalies, and data consistency are necessarily required. On the other hand, Denormalization is used when the faster search is more important and to optimize the read performance.
+
+## 11-  Can foreign keys be null?
+Foreign keys allow key values that are all NULL , even if there are no matching PRIMARY or UNIQUE keys.
