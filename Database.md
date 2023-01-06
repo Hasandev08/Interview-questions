@@ -49,3 +49,6 @@ https://learnsql.com/blog/sql-joins/
 
 ## 11-  Can foreign keys be null?
 Foreign keys allow key values that are all NULL , even if there are no matching PRIMARY or UNIQUE keys.
+
+## 12-  What is performance wise better join or a subquery?
+Joins tend to execute faster. The subqueries are simpler, easier to understand, and easier to read.
