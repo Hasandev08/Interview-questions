@@ -101,3 +101,53 @@ An object is an instance of a class. Objects hold multiple information, but clas
 - An abstract class captures some common implementation code in a base class. An interface has no code. It is a pure specification of what should happen.
 - As a reader of this code, an interface tells me I am free to do what I want with an implementation. An abstract class suggests I must re-use some part of an existing implementation. I need to understand what that is, how it applies to me, and how it constrains me in my work.
 
+## 22- Difference between abstract class and interface?
+```
+An abstract class allows you to define the functionalities that can be implemented by the subclasses.
+Whereas the interface just allows you to define the functionalities and there is no implementation.
+```
+
+## 23- Access Modifiers Vs Access Specifiers.
+```
+There is no difference between the access modifiers and access specifiers. They both are same. The access
+modifiers is just a new term used instead of access specifiers.
+Access modifiers are the keywords i.e., private, protected, public
+```
+
+## 24- Find the distinct characters from string in O(n).
+https://github.com/Hasandev08/Interview-Questions/blob/master/Programs/distinctChar.js
+
+## 25- Private, Protected and Public Inheritance.
+
+## 26- Encapsulation and Abstraction.
+### Encapsulation
+```
+Encapsulation is hiding of the sensitive data from the user. To achieve this the class attributes
+are declared as private. To make it readable for the users getters and setter are provided e.g.,
+a capsule which hides the medicine within it.
+```
+### Abstraction
+```
+It means that displaying only the essential information and hiding the other details
+e.g., a coffee machine
+```
+## 27- Inheritance Vs Encapsulation
+```
+In inheritance all the attributes and methods are inherited from the parent to child class whereas 
+in encapsulation the private members of the class cannot be accessed
+```
+
+## 28- What are garbage values
+```
+These are the waste or unused values which are available in the memory at the time of declaration of the values.
+```
+## 29- Diamond Problems
+https://www.makeuseof.com/what-is-diamond-problem-in-cpp/
+
+## 30- Class C inherits fron Class A and B. suppose A and B have same methods having different definitions, which function should be called by child.
+- There will be an error of ambuiguity. In other words it will be a diamond problem.
+
+## 31- Can we overload constructors
+```
+Constructors can be overloaded in a similar way as function overloading. Overloaded constructors have the same name (name of the class) but the different number of arguments. Depending upon the number and type of arguments passed, the corresponding constructor is called.
+```
