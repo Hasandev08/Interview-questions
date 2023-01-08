@@ -17,7 +17,7 @@
 - Real life example of Abstraction is ATM Machine; All are performing operations on the ATM machine like cash withdrawal, money transfer, retrieve mini-statement…etc. but we can't know internal details about ATM. Note: Data abstraction can be used to provide security for the data from the unauthorized methods.
 
 ## 5- Inheritance
-The capability of a class to derive properties and characteristics from another class is called Inheritance. A child class or derived class can access all the public , protected , internal and protected internal member. Private member cannot be accessed by child class however it is inherited and still present in child class and can be accessed using public property (GET SET modifier) .
+The capability of a class to derive properties and characteristics from another class is called Inheritance. A child class or derived class can access all the public , protected , internal and protected internal member. Private member cannot be accessed by child class however it is inherited and still present in child class and can be accessed using public property (GET SET modifier).
 
 ### Types of Inheritance in C++
 - Single Inheritance: In single inheritance, a class is allowed to inherit from only one class. i.e. one sub class is inherited by one base class only.
