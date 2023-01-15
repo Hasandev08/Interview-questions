@@ -5,7 +5,7 @@ const arr = ["Even", "Odd"]  //The positions of even and odd can't be changes as
 cin >> n;
 cout << arr[n % 2]
 ```
-## 2- Checking if linked list is palindrome in O(n)
+## 2- Checking if linked list is palindrome in O(n).
 https://github.com/Hasandev08/Interview-Questions/blob/master/Programs/isPalindrome%20Linked%20List.cpp
 
 ## 3- Making a queue using two stacks
