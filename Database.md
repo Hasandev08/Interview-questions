@@ -16,7 +16,7 @@ https://learnsql.com/blog/sql-joins/
 - Surrogate Key – An artificial key which aims to uniquely identify each record is called a surrogate key. These kind of key are unique because they are created when you don’t have any natural primary key.
 ```
 ## 4- Difference between sql and nosql.
-- SQL is the programming language used to interface with relational databases. (Relational databases model data as records in rows and tables with logical links between them). NoSQL is a class of DBMs that are non-relational and generally do not use SQL e.g., MongoDB
+- SQL is the programming language used to interface with relational databases. (Relational databases model data as records in rows and tables with logical links between them). NoSQL is a class of DBMs that are non-relational and generally do not use SQL e.g., MongoDB.
 
 ## 5- Stored Procedures
 - A database object that contains block of sql code.
