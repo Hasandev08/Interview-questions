@@ -32,7 +32,7 @@ https://learnsql.com/blog/sql-joins/
 - Atomicity - the transactions are like atoms. No matter how many statements are there, either all the statements are executed and transactions is successful or the trasactions is rolled back and none of the statements are executed and the transaction is failed.
 - Consistency - the database will always remain consistent. There will be no null value.
 - Isolation - transactions are protected or isolated from each other if they tried to modify same data. If multiple transactions try to update the same data the rows will get locked/isolated. Other transactions will have to wait till the first transaction is completed.
-- Durability- Once changes are made by transactions they are permanent i.e., if the systems crashes those changes will not be effected.
+- Durability - Once changes are made by transactions they are permanent i.e., if the systems crashes those changes will not be effected.
 
 ## 9- Normalization
 - It is used to prevent duplication because there can be a database in which any attribute e.g., name is repeated. So if we want to update the name we will have to update it on all the places. That's where normalization is used.
