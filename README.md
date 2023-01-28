@@ -1,2 +1,2 @@
 # Interview-Questions
-This repository includes all the possible questions asked in any interview (for undergrads).
+This repository includes all the possible questions asked in interviews (for undergrads).
