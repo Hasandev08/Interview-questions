@@ -397,7 +397,6 @@ console.log(union);
  
         for (let i = 0; i < s.length; i++)
         {
-            // checking character in string
             if (s.charAt(i) == c)
             res++;
         }
