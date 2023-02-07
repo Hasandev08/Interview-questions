@@ -397,7 +397,7 @@ console.log(union);
  
         for (let i = 0; i < s.length; i++)
         {
-            if (s.charAt(i) == c)
+            if (s[i] === c)
             res++;
         }
         return res;
