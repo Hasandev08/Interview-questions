@@ -380,3 +380,11 @@ function findCommonElements3(arr1, arr2) {
      
  console.log(findCommonElements3(array1, array2))
 ```
+
+## 29- Finding union between 2 arrays
+```
+var a = [34, 35, 45, 48, 49];
+var b = [48, 55];
+var union = [...new Set([...a, ...b])];
+console.log(union);
+```
