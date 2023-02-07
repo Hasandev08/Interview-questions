@@ -157,3 +157,6 @@ Constructors can be overloaded in a similar way as function overloading. Overloa
 
 ## 33- How to prevent a class from being subclasses?
 - You can prevent a class from being subclassed by using the final keyword in the class's declaration. Similarly, you can prevent a method from being overridden by subclasses by declaring it as a final method. An abstract class can only be subclassed; it cannot be instantiated.
+
+## 34- Associations and it's types.
+https://javapapers.com/oops/association-aggregation-composition-abstraction-generalization-realization-dependency/#:~:text=When%20an%20object%20contains%20the,composition%20between%20class%20and%20students.
