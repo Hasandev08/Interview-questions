@@ -388,3 +388,20 @@ var b = [48, 55];
 var union = [...new Set([...a, ...b])];
 console.log(union);
 ```
+
+## 30- Program to count occurrence of a given character in a string
+```
+ function count(s, c)
+    {
+        let res = 0;
+ 
+        for (let i = 0; i < s.length; i++)
+        {
+            // checking character in string
+            if (s.charAt(i) == c)
+            res++;
+        }
+        return res;
+    }
+     
+```
