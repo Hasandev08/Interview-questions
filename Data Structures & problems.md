@@ -369,3 +369,14 @@ function generateRandom(min, max)
 ```
 ## 27- When do you use recursion over iteration?
 People use recursion only when it is very complex to write iterative code. For example, tree traversal techniques like preorder, postorder can be made both iterative and recursive. But usually we use recursive because of its simplicity.
+
+## 28- Finding common elements in given 2 arrays in O(n).
+```
+function findCommonElements3(arr1, arr2) {
+    const temp = []
+    arr1.some(item => {if(arr2.includes(item)) temp.push(item)})
+    return temp
+}
+     
+ console.log(findCommonElements3(array1, array2))
+```
