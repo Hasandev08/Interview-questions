@@ -307,7 +307,7 @@ int secondLargest(int arr[], int n)
 		if (arr[i] != arr[largest])
 		{
 			if (secondL == -1)
-				secondL = 0
+				secondL = i
 			
 			else if (arr[i] > arr[secondL])
 				secondL = i
