@@ -420,3 +420,22 @@ function removeDups(arr,n)
         }
 }
 ```
+
+## 32- Deleting any node without using the head node
+```
+void deleteNodeWithoutHead(struct Node* deletingNode) {
+   if (deletingNode == NULL) {
+      return;
+   }
+   else {
+      if (deletingNode->next == NULL) {
+         cout << "Can't delete last node without head" << endl;
+         return;
+      }
+      struct Node* temp = deletingNode->next;	// a temp pointer will start pointing the node next to the deleting node
+      deletingNode->data = temp->data;		// replace the data of deleting node with the temp node so that both nodes have the same data now
+      deletingNode->next = temp->next;		// point current node to the node next to temp so that temp can be deleted as both temp and current have same data
+      free(temp);
+   }
+}
+```
