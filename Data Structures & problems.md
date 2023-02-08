@@ -296,7 +296,7 @@ int secondLargest(int arr[], int n)
 {
 	int largest = 0, secondL = -1;
 	
-	for (int i = largest + 1; i < n; i++)
+	for (int i = 1; i < n; i++)
 	{
 		if (arr[i] > arr[largest])
 			largest = i
