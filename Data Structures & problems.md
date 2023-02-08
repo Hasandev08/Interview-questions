@@ -404,3 +404,19 @@ console.log(union);
     }
      
 ```
+
+## 31- Remove duplicates from unsorted array using Map data structure
+```
+function removeDups(arr,n)
+{
+        let mp = new Map();
+   
+        for (let i = 0; i < n; ++i)
+        {
+            if (mp.get(arr[i]) == null)
+                document.write(arr[i] + " ");
+
+            mp.set(arr[i], true);
+        }
+}
+```
