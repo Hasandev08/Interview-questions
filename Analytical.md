@@ -8,7 +8,7 @@
 ## 3- If you have 7 balls. One weighs more than the others (not significantly). You have a scale, like the scales of justice. How do you find the weighted ball only using the scale twice?
 - Weigh 3 and 3. If the weight is equal then you are holding the heavier ball else if the weight is not equal take the 3 balls with greater weight and weigh any 2 balls if the weight is equal you are holding the heavier ball else the the heavier ball will be on the scale.
 
-## 4- You have 12 black socks and 12 white socks in your drawer. What is the minimum number of socks that you have to take out to make sure that you have a matching pair? Room is dark, u cant see colours (consider urself blind).
+## 4- You have 12 black socks and 12 white socks in your drawer. What is the minimum number of socks that you have to take out to make sure that you have a matching pair? Room is dark, u cant see colours (consider yourself blind).
 - If the first is white and the second is black, the third would be either white or black, making a match with one of the first two.
 - If the first is white and the second is white, there is a match.
 - If the first is black and the second is black, there is a match.
