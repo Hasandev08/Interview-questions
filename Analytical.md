@@ -37,7 +37,7 @@ So the answer is 1, 4, 9, 16, 25, 36, 49, 64, 81 and 100.
 
 https://www.geeksforgeeks.org/puzzle-18-torch-and-bridge/?ref=lbp
 
-## 9- An employee works for an employer for 7 days. The employer has a gold rod of 7 units. How does the employer pay to the employee, so that the number of employee’s rod units increases by one at the end of each day? The employer can make at most 2 cuts in the rod. (Hint- after the end of the day employee’s can’t spend any part of rod)
+## 9- An employee works for an employer for 7 days. The employer has a gold rod of 7 units. How does the employer pay to the employee, so that the number of employee’s rod units increases by one at the end of each day? The employer can make at most 2 cuts in the rod. (Hint- after the end of the day employee’s can’t spend any part of rode)
 https://www.geeksforgeeks.org/puzzle-4-pay-an-employee-using-a-gold-rod-of-7-units/?ref=lbp
 
 ## 10- (Find ages of daughters) Alok has three daughters. His friend Shyam wants to know the ages of his daughters. Alok gives him first hint.
