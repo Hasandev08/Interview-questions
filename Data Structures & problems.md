@@ -26,7 +26,7 @@ void pairWiseSwap(Node* head)
 }
 ```
 
-## 5- Reversing a linked list
+## 5- Reversing a linked list.
 ```
 void reverse ()
 {
