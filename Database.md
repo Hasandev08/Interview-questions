@@ -52,3 +52,7 @@ Foreign keys allow key values that are all NULL, even if there are no matching P
 
 ## 12-  What is performance wise better join or a subquery?
 Joins tend to execute faster. The subqueries are simpler, easier to understand, and easier to read.
+
+## 13- Nth highest salary
+SELECT * FROM Products order by Price DESC LIMIT 2,1 (2nd highest)
+SELECT * FROM ((select * from Products Order BY Price DESC LIMIT 3) AS T) Order by T.Price ASC limit 1
