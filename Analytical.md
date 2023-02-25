@@ -64,7 +64,7 @@ https://www.geeksforgeeks.org/puzzle-2-find-ages-of-daughters/?ref=lbp
 ## 14- How many times the minute hand and the hour hand of the clock meet each other in 12 hours consider both hands of the clock are initially at 12
 - We know that the minute and hour hand coincide every 65 minutes and not 60 minutes.
 Also, the hour and minute hand coincide only once between 11 and 1 o’clock i.e. at 12 o’clock.
-So, from both the above statements we can say that the two hands coincide exactly 11 times in a 12 hour span
+So, from both the above statements we can say that the two hands coincide exactly 11 times in a 12 hour span.
 
 ## 15- You have two identical ropes, one rope can burn in 60 mins, but burning pattern is irregular mean maybe first half of the rope can be burn in 50 mins and other half can be in 10 mins, you have to calculate 45 mins using the ropes.
 - Burn rope#1 from both sides and rope 2 just from one side. The first rope will be burnt in 30 minutes as per the conditions.
