@@ -61,7 +61,7 @@ https://www.geeksforgeeks.org/puzzle-2-find-ages-of-daughters/?ref=lbp
 ## 13- You have Two Jugs(Containers/Flasks), one of 3-litres and the other one of 5-litres. How would you exactly measure 4-litres considering you have excess supply of water
 - Empty 3-litre bowl. Add 3-litres from 5-litre bowl to 3-litre bowl so that 2-litre water remains in the 5-litre bowl. Empty 3-litre bowl. Add remaining i.e., 2litres water from 5-litre bowl to 3-litre bowl so that it contains 2-litre bowl. Refill the 5-litre bowl and pour 1-litre from it to the 3-litre bowl so that 4-litre water remains in 5-litre bowl. 
 
-## 14- How many times the minute hand and the hour hand of the clock meet each other in 12 hours consider both hands of the clock are initially at 12
+## 14- How many times the minute hand and the hour hand of the clock meet each other in 12 hours consider both hands of the clock are initially at 12?
 - We know that the minute and hour hand coincide every 65 minutes and not 60 minutes.
 Also, the hour and minute hand coincide only once between 11 and 1 o’clock i.e. at 12 o’clock.
 So, from both the above statements we can say that the two hands coincide exactly 11 times in a 12 hour span.
