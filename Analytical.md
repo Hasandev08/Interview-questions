@@ -55,7 +55,7 @@ https://www.geeksforgeeks.org/puzzle-2-find-ages-of-daughters/?ref=lbp
 - Empty the 5 litre mug and add the water from 4 litre mug ti 5 litre mug so that the 5 litre mug now has 3 litre of water.
 - Now fill the 4 litre mug so that in total there is 7 litre of water. 
 
-## 12- You have 12 black socks and 12 white socks in your drawer. What is the minimum number of socks that you have to take out to make sure that you have a matching pair? Room is dark, you cant see colours
+## 12- You have 12 black socks and 12 white socks in your drawer. What is the minimum number of socks that you have to take out to make sure that you have a matching pair? Room is dark, you cant see colours.
 - 3 socks. Assume the first sock is black. The second one could be black, in which case you have a matching pair. If the second sock is white, the third sock will be either black and match the first sock, or white and match the second sock.
 
 ## 13- You have Two Jugs(Containers/Flasks), one of 3-litres and the other one of 5-litres. How would you exactly measure 4-litres considering you have excess supply of water
