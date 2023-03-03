@@ -83,7 +83,7 @@ The conditional (ternary) operator is the only JavaScript operator that takes th
 - Finalize method helps to perform cleanup operations on the resources which are not currently used. Finalize method is protected, and it is accessible only through this class or by a derived class.
 - The Finalize method is used to perform cleanup operations on unmanaged resources held by the current object before the object is destroyed. The method is protected and therefore is accessible only through this class or through a derived class.
 
-## 17- Different type of arguements
+## 17- Different type of arguements?
 - A parameter is a variable used during the declaration of the function or subroutine, and arguments are passed to the function body, and it should match with the parameter defined. There are two types of Arguments. Call by Value – Value passed will get modified only inside the function, and it returns the same value whatever it is passed into the function. Call by Reference – Value passed will get modified in both inside and outside the functions and it returns the same or different value.
 - Function parameters are the names listed in the function's definition. Function arguments are the real values passed to the function. Parameters are initialized to the values of the arguments supplied.
 
